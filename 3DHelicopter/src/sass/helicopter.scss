@@ -1,0 +1,55 @@
+.container {
+  width: 150rem;
+  height: 80rem;
+  background: rgb(88, 179, 253) url(../../../3DHelicopter/public/bg.png)
+    repeat-x;
+  background-size: 150rem auto;
+  background-position: 0 100%;
+  display: grid;
+  place-items: center;
+  animation: bgAnim 10s infinite linear;
+  border-radius: 0.5rem 100rem;
+  display: Flex;
+  .helicopter {
+    width: 80rem;
+    height: 60rem;
+    background-color: #fff;
+    position: relative;
+    div {
+      position: absolute;
+    }
+    .blade {
+      width: 40rem;
+      height: 2rem;
+      background-color: #000;
+      left: 20rem;
+      top: 15rem;
+      .main_rotor {
+        width: 5rem;
+        height: 2rem;
+        background-color: red;
+        left: 17.5rem;
+      }
+    }
+    .cockpit {
+      width: 20rem;
+      height: 10rem;
+      top: 18.5rem;
+      left: 30rem;
+      background-color: #000;
+      border-radius: 50% 40% 40% 40%;
+      &::before {
+        content: '';
+        width: 8rem;
+        height: 5rem;
+        background-color: #ccc;
+        position: absolute;
+        top: .2rem;
+        border-radius: 100% 0 40% 0;
+      }
+    }
+    .landing_skid {
+        width: ;
+    }
+  }
+}
