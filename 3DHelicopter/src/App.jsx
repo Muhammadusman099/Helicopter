@@ -15,7 +15,7 @@ const [count, setCount] = useState(0)
         <div className="landing_skid landing_skid_2"></div>
         <div className="tail_cone"></div>
         <div className="tail_fin"></div>
-        <div className="tail_rotot"></div>
+        <div className="tail_rotor"></div>
       </div>
     </div>
   )
